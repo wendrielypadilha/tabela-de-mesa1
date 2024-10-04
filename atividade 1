@@ -1,0 +1,17 @@
+    // Declaração das variáveis
+    int a = 10;
+    int b = 20;
+    double c;
+
+    // Cálculo de c
+    c = (a + b) / 2.0; 
+    c1 = c - 40;
+
+    // Armazenar o resultado em um vetor
+    double[] v = new double[4];
+    v[3] = a + b + c1;
+
+       
+    Console.WriteLine("O valor de v[3] é: " + v[3]);
+    Console.ReadLine();
+}
